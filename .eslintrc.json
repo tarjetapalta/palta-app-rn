@@ -1,4 +1,7 @@
 {
+  "env": {
+    "react-native/react-native": true
+  },
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "react",
@@ -30,7 +33,15 @@
       "babel-module": {},
       "node": {
         "extensions": [".ts", ".tsx"]
-      }
+      },
+      "alias": [
+        ["@ui", "./src/ui"],
+        ["@theme", "./src/theme"],
+        ["@screens", "./src/screens"],
+        ["@routing", "./src/routing"],
+        ["@core", "./src/core"],
+        ["@store", "./src/store"]
+      ]
     }
   },
   "rules": {
@@ -55,7 +66,13 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": true
+        "devDependencies": [
+          "**/*.test.ts",
+          "**/*.spec.ts",
+          "**/*.test.tsx",
+          "**/*.spec.tsx",
+          "**/__test__/*"
+        ]
       }
     ],
 
