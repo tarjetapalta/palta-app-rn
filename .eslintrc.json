@@ -1,0 +1,163 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react",
+    "react-native",
+    "react-hooks",
+    "import",
+    "unicorn",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "airbnb-base",
+    "airbnb-base/rules/strict",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:jest/all",
+    "plugin:import/typescript",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      // use <root>/tsconfig.json
+      "typescript": {
+        "alwaysTryTypes": true // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+      },
+      "babel-module": {},
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    // ESLint rules
+    "global-require": "off",
+    "no-plusplus": "off",
+    "complexity": ["error", { "max": 12 }],
+    "max-depth": ["error", { "max": 3 }],
+    "max-nested-callbacks": ["error", { "max": 2 }],
+    "max-params": ["error", { "max": 3 }],
+    "max-statements": ["error", { "max": 12 }],
+    "arrow-body-style": ["error", "as-needed"],
+    "object-property-newline": [
+      "error",
+      { "allowAllPropertiesOnSameLine": false }
+    ],
+
+    // Import
+    "import/no-unresolved": "error",
+    "import/extensions": ["error", "never", { "svg": "always", "json": "always" }],
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+
+    // React rules:
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts", ".json"] }],
+    "react/prop-types": "off",
+    "react/prefer-es6-class": ["error", "never"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-curly-brace-presence": ["error", "never"],
+    "react/display-name": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal"],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "external",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+
+    // Jest
+    // Maybe we need to enable this? https://stackoverflow.com/questions/50816254/necessary-to-use-expect-assertions-if-youre-awaiting-any-async-function-calls
+    "jest/prefer-expect-assertions": "off",
+    "jest/prefer-inline-snapshots": "off",
+    "jest/require-top-level-describe": "off",
+    "jest/expect-expect": [
+      "error",
+      {
+        "assertFunctionNames": ["expect"]
+      }
+    ],
+
+    // React Native rules:
+    "react-native/no-unused-styles": "error",
+    "react-native/split-platform-components": "off",
+    "react-native/no-inline-styles": "error",
+    "react-native/no-color-literals": "error",
+    "react-native/no-raw-text": "off",
+
+    // unicorn
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
+    "unicorn/no-abusive-eslint-disable": "error",
+    "unicorn/no-array-instanceof": "error",
+    "unicorn/prefer-includes": "error",
+    "unicorn/no-unsafe-regex": "off",
+    "unicorn/throw-new-error": "error",
+    "unicorn/regex-shorthand": "error",
+    "unicorn/filename-case": [
+      "error",
+      {
+        "case": "kebabCase"
+      }
+    ],
+    "unicorn/no-object-as-default-parameter": "error",
+    
+    // TypeScript rules
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/ban-ts-comment": "error",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        // if true, only functions which are part of a declaration will be checked
+        "allowExpressions": true,
+        // if true, type annotations are also allowed on the variable of a function expression rather than on the function directly
+        "allowTypedFunctionExpressions": true,
+        // if true, functions immediately returning another function expression will not be checked
+        "allowHigherOrderFunctions": false
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "*/**/*.{spec,test}.{ts,tsx}",
+        "**/__mocks__/*.{ts,tsx}",
+        "**/__test__/*.{ts,tsx}"
+      ],
+      "env": {
+        "jest": true
+      },
+      "rules": {
+        "max-statements": ["error", { "max": 14 }],
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/ban-ts-comment": "off"
+      }
+    },
+    {
+      "files": ["*/**/*.js"],
+
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off"
+      }
+    }
+  ]
+}

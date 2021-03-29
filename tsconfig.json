@@ -1,0 +1,32 @@
+
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    // Don't process & infer types from .js files.
+    "allowJs": true,
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // Disallow features that require cross-file information for emit.
+    // IMPORTANT: true is required for babel, don't change it unless babel already solved this.
+    "isolatedModules": true,
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Include modules imported with .json extension.
+    "resolveJsonModule": true,
+    // Don't emit; allow Babel to transform files.
+    "noEmit": true,
+    // Enable strictest settings like strictNullChecks & noImplicitAny.
+    "strict": true,
+    // Target latest version of ECMAScript.
+    "target": "esnext",
+    // Skip type checking of all declaration files (*.d.ts).
+    "skipLibCheck": true,
+    // Target latest version of ECMAScript.
+    "module": "esnext",
+  },
+  "exclude": [
+    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+  ]
+}
