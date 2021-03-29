@@ -1,22 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders home correctly 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
-  <Text
-    style={
-      Object {
-        "color": "coral",
-      }
-    }
-  >
+<View>
+  <Text>
     HOME SCREEN
   </Text>
 </View>
