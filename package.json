@@ -12,12 +12,7 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0",
     "typescript": "tsc",
-    "pre-commit": "npm run test:coverage && npm run lint && npm run typescript"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
-    }
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
@@ -57,7 +52,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-native": "^3.10.0",
     "eslint-plugin-unicorn": "^29.0.0",
-    "husky": "^5.2.0",
+    "husky": "^6.0.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.64.0",
     "prettier": "^2.2.1",
