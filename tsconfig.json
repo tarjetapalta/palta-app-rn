@@ -1,6 +1,22 @@
 
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    // Base directory to resolve non-absolute module names.
+    "paths": {
+      "@theme": ["./theme"],
+      "@theme/*": ["./theme/*"],
+      "@screens": ["./screens"],
+      "@screens/*": ["./screens/*"],
+      "@ui": ["./ui"],
+      "@ui/*": ["./ui/*"],
+      "@core": ["./core"],
+      "@core/*": ["./core/*"],
+      "@routing": ["./routing"],
+      "@routing/*": ["./routing/*"],
+      "@store": ["./store"],
+      "@store/*": ["./store/*"]
+    },
     "jsx": "react",
     "lib": ["es6", "dom"],
     // Don't process & infer types from .js files.
