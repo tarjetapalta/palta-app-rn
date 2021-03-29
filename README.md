@@ -1,0 +1,1 @@
+# palta-app-rn
