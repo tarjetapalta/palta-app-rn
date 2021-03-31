@@ -3,7 +3,8 @@ import { palette } from './palette';
 export const colors = {
   black: palette.black,
   white: palette.white,
-  primary: palette.applegate,
+  primary: palette.pearCactus,
+  darkGradient: palette.colorMeGreen,
   text: palette.chimneySweep,
   background: palette.white,
   lightBackground: palette.bleachedSilk,

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`h5 component basic H5 with color "primary", emphasis "medium" 1`] = `
+<Text
+  color="primary"
+  emphasis="medium"
+  numberOfLines={0}
+  size="s"
+  style={
+    Array [
+      Object {
+        "color": "#91b086",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 14,
+        "opacity": 0.6,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="H5"
+>
+  Some text
+</Text>
+`;
+
+exports[`h5 component basic H5 with color "text", emphasis "high", weight "medium" and testID "H5" 1`] = `
+<Text
+  numberOfLines={0}
+  size="s"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 14,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="H5"
+>
+  Some text
+</Text>
+`;
+
+exports[`h5 component basic H5 with weight "light" 1`] = `
+<Text
+  numberOfLines={0}
+  size="s"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 14,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="H5"
+  weight="regular"
+>
+  Some text
+</Text>
+`;
+
+exports[`h5 component basic with custom testId 1`] = `
+<Text
+  numberOfLines={0}
+  size="s"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 14,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="custom testID"
+>
+  Some text
+</Text>
+`;

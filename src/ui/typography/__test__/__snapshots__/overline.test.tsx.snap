@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`overline component basic Overline with color "primary", emphasis "medium" 1`] = `
+<Text
+  color="primary"
+  emphasis="medium"
+  numberOfLines={0}
+  size="xxs"
+  style={
+    Array [
+      Object {
+        "color": "#91b086",
+        "fontFamily": "BwModelica-Light",
+        "fontSize": 10,
+        "opacity": 0.6,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="Overline"
+  weight="light"
+>
+  Some text
+</Text>
+`;
+
+exports[`overline component basic Overline with color "text", emphasis "high" and testID "Overline" 1`] = `
+<Text
+  numberOfLines={0}
+  size="xxs"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Light",
+        "fontSize": 10,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="Overline"
+  weight="light"
+>
+  Some text
+</Text>
+`;
+
+exports[`overline component basic with custom testId 1`] = `
+<Text
+  numberOfLines={0}
+  size="xxs"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Light",
+        "fontSize": 10,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="custom testID"
+  weight="light"
+>
+  Some text
+</Text>
+`;

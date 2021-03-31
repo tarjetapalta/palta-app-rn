@@ -1,29 +1,370 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders home correctly 1`] = `
-<View
-  style={
-    Array [
+Array [
+  <Image
+    source={
       Object {
-        "alignItems": "center",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-        "justifyContent": "center",
-      },
-    ]
-  }
->
-  <Text
+        "testUri": "../../../assets/images/background-02.png",
+      }
+    }
     style={
       Array [
         Object {
-          "color": "#8FC177",
+          "height": "100%",
+          "position": "absolute",
+          "width": "100%",
         },
       ]
     }
+  />,
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+    transparent={true}
   >
-    HOME SCREEN
-  </Text>
-</View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <View
+        content="left"
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "paddingBottom": 0,
+              "paddingLeft": 48,
+              "paddingRight": 48,
+              "paddingTop": 48,
+            },
+          ]
+        }
+        type="header"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": -10,
+              },
+            ]
+          }
+        >
+          <View
+            height={90}
+            style={
+              Array [
+                Object {
+                  "height": 90,
+                  "width": 160,
+                },
+              ]
+            }
+            width={160}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../assets/images/logo-01.png",
+                }
+              }
+              style={
+                Object {
+                  "flex": 1,
+                  "height": undefined,
+                  "resizeMode": "contain",
+                  "width": undefined,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          size="xs"
+          style={
+            Array [
+              Object {
+                "height": 8,
+              },
+            ]
+          }
+        />
+        <Text
+          color="white"
+          numberOfLines={0}
+          size="xl"
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "BwModelica-Bold",
+                "fontSize": 24,
+                "opacity": 0.87,
+                "textAlign": "center",
+              },
+            ]
+          }
+          testID="H2"
+          weight="bold"
+        >
+          Billetera virtual.
+        </Text>
+        <Text
+          color="white"
+          numberOfLines={0}
+          size="xl"
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "BwModelica-Bold",
+                "fontSize": 24,
+                "opacity": 0.87,
+                "textAlign": "center",
+              },
+            ]
+          }
+          testID="H2"
+          weight="bold"
+        >
+          Dinero real.
+        </Text>
+      </View>
+      <View
+        content="center"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "paddingBottom": 0,
+              "paddingLeft": 48,
+              "paddingRight": 48,
+              "paddingTop": 0,
+            },
+          ]
+        }
+      />
+      <View
+        content="center"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "paddingBottom": 48,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 0,
+            },
+          ]
+        }
+        type="footer"
+      >
+        <Text
+          color="white"
+          emphasis="pure"
+          numberOfLines={0}
+          size="s"
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "BwModelica-Regular",
+                "fontSize": 14,
+                "opacity": 1,
+                "textAlign": "center",
+              },
+            ]
+          }
+          testID="H5"
+        >
+          No tengo cuenta
+        </Text>
+        <View
+          size="s"
+          style={
+            Array [
+              Object {
+                "height": 16,
+              },
+            ]
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "elevation": 12,
+              "opacity": 1,
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.18,
+              "shadowRadius": 4,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#91b086",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#ffffff",
+                    "fontFamily": "BwModelica-Bold",
+                    "fontSize": 14,
+                    "letterSpacing": 0.21,
+                    "opacity": 0.87,
+                    "textAlign": "center",
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+            >
+              Registrarme
+            </Text>
+          </View>
+        </View>
+        <View
+          size="s"
+          style={
+            Array [
+              Object {
+                "height": 16,
+              },
+            ]
+          }
+        />
+        <Text
+          color="white"
+          numberOfLines={0}
+          size="s"
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "BwModelica-Regular",
+                "fontSize": 14,
+                "opacity": 0.87,
+                "textAlign": "center",
+              },
+            ]
+          }
+          testID="H5"
+        >
+          Ya tengo cuenta
+        </Text>
+        <View
+          size="xs"
+          style={
+            Array [
+              Object {
+                "height": 8,
+              },
+            ]
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "elevation": 12,
+              "opacity": 1,
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.18,
+              "shadowRadius": 4,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Text
+              color="primary"
+              style={
+                Array [
+                  Object {
+                    "color": "#91b086",
+                    "fontFamily": "BwModelica-Bold",
+                    "fontSize": 14,
+                    "letterSpacing": 0.21,
+                    "opacity": 0.87,
+                    "textAlign": "center",
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+            >
+              Iniciar sesión
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTSafeAreaView>
+  </View>,
+]
 `;

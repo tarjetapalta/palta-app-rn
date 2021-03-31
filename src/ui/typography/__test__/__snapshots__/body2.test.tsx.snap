@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`body2 component basic Body2 with color "primary", emphasis "medium" 1`] = `
+<Text
+  color="primary"
+  emphasis="medium"
+  numberOfLines={0}
+  size="xs"
+  style={
+    Array [
+      Object {
+        "color": "#91b086",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 12,
+        "opacity": 0.6,
+        "textAlign": "center",
+      },
+    ]
+  }
+  weight="regular"
+>
+  Some text
+</Text>
+`;
+
+exports[`body2 component basic Body2 with color "text", emphasis "high" and testID "Body2" 1`] = `
+<Text
+  numberOfLines={0}
+  size="xs"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 12,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  weight="regular"
+>
+  Some text
+</Text>
+`;
+
+exports[`body2 component basic with custom testId 1`] = `
+<Text
+  numberOfLines={0}
+  size="xs"
+  style={
+    Array [
+      Object {
+        "color": "#283238",
+        "fontFamily": "BwModelica-Regular",
+        "fontSize": 12,
+        "opacity": 0.87,
+        "textAlign": "center",
+      },
+    ]
+  }
+  testID="custom testID"
+  weight="regular"
+>
+  Some text
+</Text>
+`;

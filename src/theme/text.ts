@@ -12,11 +12,14 @@ export type FontSizeType = typeof fontSize;
 export type KeyFontSize = keyof FontSizeType;
 
 export const fontWeight = {
-  light: '300',
-  regular: '400',
-  medium: '500',
-  bold: '700',
-  black: '800',
+  hairLine: 'Hairline',
+  thin: 'Thin',
+  light: 'Light',
+  regular: 'Regular',
+  medium: 'Medium',
+  bold: 'Bold',
+  extraBold: 'EctraBold',
+  black: 'Black',
 };
 
 export type FontWeightType = typeof fontWeight;

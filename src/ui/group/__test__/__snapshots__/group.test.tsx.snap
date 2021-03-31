@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`group component basic Group with content "left" 1`] = `
+<View
+  content="left"
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "paddingBottom": 0,
+        "paddingLeft": 48,
+        "paddingRight": 48,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={0}
+    size="xxl"
+    style={
+      Array [
+        Object {
+          "color": "#283238",
+          "fontFamily": "BwModelica-Bold",
+          "fontSize": 28,
+          "opacity": 0.87,
+          "textAlign": "center",
+        },
+      ]
+    }
+    testID="H1"
+    weight="bold"
+  >
+    Group test
+  </Text>
+</View>
+`;
+
+exports[`group component basic Group with custom testID 1`] = `
+<View
+  content="center"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 48,
+        "paddingRight": 48,
+        "paddingTop": 0,
+      },
+    ]
+  }
+  testID="custom testID"
+>
+  <Text
+    numberOfLines={0}
+    size="xxl"
+    style={
+      Array [
+        Object {
+          "color": "#283238",
+          "fontFamily": "BwModelica-Bold",
+          "fontSize": 28,
+          "opacity": 0.87,
+          "textAlign": "center",
+        },
+      ]
+    }
+    testID="H1"
+    weight="bold"
+  >
+    Group test
+  </Text>
+</View>
+`;
+
+exports[`group component basic Group with type "body", content "center" and testId "Group" 1`] = `
+<View
+  content="center"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 48,
+        "paddingRight": 48,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={0}
+    size="xxl"
+    style={
+      Array [
+        Object {
+          "color": "#283238",
+          "fontFamily": "BwModelica-Bold",
+          "fontSize": 28,
+          "opacity": 0.87,
+          "textAlign": "center",
+        },
+      ]
+    }
+    testID="H1"
+    weight="bold"
+  >
+    Group test
+  </Text>
+</View>
+`;
+
+exports[`group component basic Group with type "header" 1`] = `
+<View
+  content="center"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 48,
+        "paddingRight": 48,
+        "paddingTop": 48,
+      },
+    ]
+  }
+  type="header"
+>
+  <Text
+    numberOfLines={0}
+    size="xxl"
+    style={
+      Array [
+        Object {
+          "color": "#283238",
+          "fontFamily": "BwModelica-Bold",
+          "fontSize": 28,
+          "opacity": 0.87,
+          "textAlign": "center",
+        },
+      ]
+    }
+    testID="H1"
+    weight="bold"
+  >
+    Group test
+  </Text>
+</View>
+`;
