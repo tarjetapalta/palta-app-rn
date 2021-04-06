@@ -1,0 +1,1 @@
+export { useGetAuth } from './get';

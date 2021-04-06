@@ -6,11 +6,13 @@ import { StatusBarType } from '@store/status-bar';
 import { KeyColors } from '@theme/colors';
 import styled, { ThemeContext } from '@theme/styled-components';
 
-const StatusBarWrapper = styled.View<{ backgroundColor?: KeyColors }>`
+const StatusBarWrapper = styled.View<{
+  backgroundColor?: KeyColors;
+}>`
   background-color: ${({ theme, backgroundColor }) =>
     backgroundColor ? theme.colors[backgroundColor] : theme.colors.background};
   height: ${isIphoneX()
-    ? `${18 + getStatusBarHeight()}px`
+    ? `${8 + getStatusBarHeight()}px`
     : `${getStatusBarHeight()}px`};
 `;
 

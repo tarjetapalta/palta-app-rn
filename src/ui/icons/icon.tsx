@@ -24,6 +24,7 @@ import {
   PictureAsPdf,
   WineBar,
   West,
+  ArrowBack,
 } from './icons-svg';
 import { IconsSvgProps } from './icons-svg/types';
 import { IconId } from './types';
@@ -60,6 +61,7 @@ const ICONS_SVG: {
   PICTURE_AS_PDF: PictureAsPdf,
   WINE_BAR: WineBar,
   WEST: West,
+  ARROW_BACK: ArrowBack,
 };
 
 export const Icon: FunctionComponent<IconProps> = ({

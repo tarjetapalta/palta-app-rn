@@ -14,14 +14,7 @@ exports[`buttonRegular component basic button regular with custom testID" 1`] = 
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "elevation": 12,
       "opacity": 1,
-      "shadowOffset": Object {
-        "height": 4,
-        "width": 0,
-      },
-      "shadowOpacity": 0.18,
-      "shadowRadius": 4,
       "width": "100%",
     }
   }
@@ -32,11 +25,14 @@ exports[`buttonRegular component basic button regular with custom testID" 1`] = 
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#91b086",
+          "backgroundColor": "#333333",
           "borderRadius": 2,
+          "borderTopColor": "#272727",
+          "borderTopWidth": 4,
           "flexDirection": "row",
-          "height": 50,
+          "height": 45,
           "justifyContent": "center",
+          "paddingBottom": 2,
         },
       ]
     }
@@ -76,14 +72,7 @@ exports[`buttonRegular component basic button regular with disabled" 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "elevation": 12,
       "opacity": 1,
-      "shadowOffset": Object {
-        "height": 4,
-        "width": 0,
-      },
-      "shadowOpacity": 0.18,
-      "shadowRadius": 4,
       "width": "100%",
     }
   }
@@ -94,12 +83,15 @@ exports[`buttonRegular component basic button regular with disabled" 1`] = `
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#91b086",
+          "backgroundColor": "#333333",
           "borderRadius": 2,
+          "borderTopColor": "#272727",
+          "borderTopWidth": 4,
           "flexDirection": "row",
-          "height": 50,
+          "height": 45,
           "justifyContent": "center",
           "opacity": 0.38,
+          "paddingBottom": 2,
         },
       ]
     }
@@ -139,14 +131,7 @@ exports[`buttonRegular component basic button regular with loading" 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "elevation": 12,
       "opacity": 1,
-      "shadowOffset": Object {
-        "height": 4,
-        "width": 0,
-      },
-      "shadowOpacity": 0.18,
-      "shadowRadius": 4,
       "width": "100%",
     }
   }
@@ -156,18 +141,21 @@ exports[`buttonRegular component basic button regular with loading" 1`] = `
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#91b086",
+          "backgroundColor": "#333333",
           "borderRadius": 2,
+          "borderTopColor": "#272727",
+          "borderTopWidth": 4,
           "flexDirection": "row",
-          "height": 50,
+          "height": 45,
           "justifyContent": "center",
+          "paddingBottom": 2,
         },
       ]
     }
   >
     <ActivityIndicator
       animating={true}
-      color="#999999"
+      color="#ffffff"
       hidesWhenStopped={true}
       size="small"
     />
@@ -189,14 +177,7 @@ exports[`buttonRegular component basic button regular with text, onActionHandle,
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "elevation": 12,
       "opacity": 1,
-      "shadowOffset": Object {
-        "height": 4,
-        "width": 0,
-      },
-      "shadowOpacity": 0.18,
-      "shadowRadius": 4,
       "width": "100%",
     }
   }
@@ -206,11 +187,14 @@ exports[`buttonRegular component basic button regular with text, onActionHandle,
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#91b086",
+          "backgroundColor": "#333333",
           "borderRadius": 2,
+          "borderTopColor": "#272727",
+          "borderTopWidth": 4,
           "flexDirection": "row",
-          "height": 50,
+          "height": 45,
           "justifyContent": "center",
+          "paddingBottom": 2,
         },
       ]
     }
