@@ -19,7 +19,7 @@ interface ImageRegularProps extends ImageRegularType {
 }
 
 export const LogoWrapper = styled.View`
-  margin-left: -10px;
+  margin-left: -15px;
 `;
 
 const ImageWrapper = styled.View<Pick<ImageRegularProps, 'width' | 'height'>>`
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
 const seletedImage = (name: KeyImages): ImageSourcePropType => {
   switch (name) {
     case 'isologo':
-      return require('../../../assets/images/logo-01.png');
+      return require('../../../assets/images/isologo-512-04.png');
     default:
       throw new Error('Invalid image name');
   }

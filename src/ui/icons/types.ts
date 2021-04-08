@@ -21,4 +21,5 @@ export type IconId =
   | 'WHATSAPP'
   | 'PICTURE_AS_PDF'
   | 'WINE_BAR'
-  | 'WEST';
+  | 'WEST'
+  | 'ARROW_BACK';

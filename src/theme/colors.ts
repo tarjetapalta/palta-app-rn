@@ -9,7 +9,7 @@ export const colors = {
   background: palette.white,
   lightBackground: palette.bleachedSilk,
   darkBackground: palette.carbon,
-  disabledBackground: palette.whiteBlue,
+  disabledBackground: palette.stonewallGrey,
   modalBackground: palette.black,
   danger: palette.redMull,
   link: palette.doverStraits,

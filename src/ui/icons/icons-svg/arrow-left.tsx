@@ -14,14 +14,17 @@ const Box = styled.View`
   height: 48px;
 `;
 
-export const ArrowLeft: FunctionComponent<IconsSvgProps> = ({ scale }) => {
+export const ArrowLeft: FunctionComponent<IconsSvgProps> = ({
+  scale,
+  color,
+}) => {
   const theme = useContext(ThemeContext);
 
   return (
     <Box>
       <Svg
         viewBox="0 0 24 24"
-        fill={theme.colors.text}
+        fill={color ? theme.colors[color] : theme.colors.text}
         width={normalSize.width * scale}
         height={normalSize.height * scale}
       >

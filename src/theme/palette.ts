@@ -5,7 +5,7 @@ export const palette = {
   backLacquer: '#403d3d',
   carbon: '#333333',
   knightsArmor: '#5C5C5C',
-  whiteBlue: '#CDD4DB',
+  stonewallGrey: '#C1C1C1',
   windsweptBeatch: '#E4E4E4',
   drWhite: '#FAFAFA',
   bleachedSilk: '#F3F3F3',

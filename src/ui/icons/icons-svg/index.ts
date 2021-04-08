@@ -20,3 +20,4 @@ export { Whatsapp } from './whatsapp';
 export { PictureAsPdf } from './picture-as-pdf';
 export { WineBar } from './wine-bar';
 export { West } from './west';
+export { ArrowBack } from './arrow-back';

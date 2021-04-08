@@ -13,7 +13,7 @@ const wrapperStyles = StyleSheet.create({
 
 interface ContainerProps {
   testID?: string;
-  backgroundColor: KeyColors;
+  backgroundColor?: KeyColors;
 }
 
 export const Container: FunctionComponent<ContainerProps> = ({

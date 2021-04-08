@@ -6,12 +6,15 @@ import styled from '@theme/styled-components';
 export const WrapperButton = styled.View<
   Pick<TouchableOpacityProps, 'disabled'>
 >`
-  background-color: ${({ theme }) => theme.colors.primary};
-  height: 50px;
+  background-color: ${({ theme }) => theme.colors.darkBackground};
+  height: 45px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   border-radius: 2px;
+  border-top-color: ${({ theme }) => theme.colors.priorityHigh};
+  border-top-width: 4px;
+  padding-bottom: 2px;
   ${({ disabled, theme }) =>
     disabled &&
     `
@@ -36,8 +39,4 @@ export const TextButton = styled.Text<TextButtonProps>`
 
 export const TouchableOpacity = styled.TouchableOpacity`
   width: 100%;
-  elevation: 12;
-  shadow-opacity: 0.18;
-  shadow-radius: 4px;
-  shadow-offset: 0px 4px;
 `;

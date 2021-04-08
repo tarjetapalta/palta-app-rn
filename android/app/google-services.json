@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "216946726905",
+    "firebase_url": "https://tarjeta-palta.firebaseio.com",
+    "project_id": "tarjeta-palta",
+    "storage_bucket": "tarjeta-palta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216946726905:android:7d755a239690d3dd",
+        "android_client_info": {
+          "package_name": "com.tarjeta.palta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216946726905-d48icat9hipmu0v1jv7q2orf7henohc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tarjeta.palta",
+            "certificate_hash": "e71d024ad62d7500f5877365ef04a8357ea36c64"
+          }
+        },
+        {
+          "client_id": "216946726905-q74q340mdi2d0i1s11tj7erkcfcbo71p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tarjeta.palta",
+            "certificate_hash": "fb5aa9c97929a6d0ddeb70ab900efbc96eb8b624"
+          }
+        },
+        {
+          "client_id": "216946726905-em1b0ot8o85omfmh2rmk2h1mpbkb2vdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACEBx4i8LH4wHIqWziKu6D-QbWZouGV2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216946726905-em1b0ot8o85omfmh2rmk2h1mpbkb2vdr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "216946726905-g3n3sg7jv9a2t9h62b52l0h5epebourk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tarjeta.palta",
+                "app_store_id": "1335767984"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

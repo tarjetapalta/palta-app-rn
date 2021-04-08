@@ -3,7 +3,14 @@ import { ViewProps } from 'react-native';
 
 import styled from '@theme/styled-components';
 
-type KeyGroup = 'header' | 'headerModal' | 'body' | 'footer' | 'borderless';
+type KeyGroup =
+  | 'header'
+  | 'headerModal'
+  | 'body'
+  | 'bodyWithButtonContent'
+  | 'bodyWithButton'
+  | 'footer'
+  | 'borderless';
 type KeyContent = 'left' | 'center' | 'right';
 
 type GroupType = Pick<ViewProps, 'testID'>;
@@ -29,6 +36,17 @@ const WrapperGroup = styled.View<Pick<GroupProps, 'type' | 'content'>>`
     type === 'body' &&
     `
     flex: 1;
+  `};
+  ${({ theme, type }) =>
+    type === 'bodyWithButtonContent' &&
+    `
+    padding: 0 ${theme.spacers.l};
+  `};
+  ${({ theme, type }) =>
+    type === 'bodyWithButton' &&
+    `
+    flex: 1;
+    padding: 0 ${theme.spacers.xs};
   `};
   ${({ theme, type }) =>
     type === 'footer' &&

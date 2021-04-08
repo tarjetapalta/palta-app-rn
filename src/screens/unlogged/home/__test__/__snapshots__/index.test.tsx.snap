@@ -63,27 +63,27 @@ Array [
           style={
             Array [
               Object {
-                "marginLeft": -10,
+                "marginLeft": -15,
               },
             ]
           }
         >
           <View
-            height={90}
+            height={110}
             style={
               Array [
                 Object {
-                  "height": 90,
-                  "width": 160,
+                  "height": 110,
+                  "width": 110,
                 },
               ]
             }
-            width={160}
+            width={110}
           >
             <Image
               source={
                 Object {
-                  "testUri": "../../../assets/images/logo-01.png",
+                  "testUri": "../../../assets/images/isologo-512-04.png",
                 }
               }
               style={
@@ -98,11 +98,10 @@ Array [
           </View>
         </View>
         <View
-          size="xs"
           style={
             Array [
               Object {
-                "height": 8,
+                "height": 24,
               },
             ]
           }
@@ -145,7 +144,7 @@ Array [
           testID="H2"
           weight="bold"
         >
-          Dinero real.
+          Dinero real
         </Text>
       </View>
       <View
@@ -210,6 +209,7 @@ Array [
           }
         />
         <View
+          accessibilityLabel="Registrarme"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -221,14 +221,7 @@ Array [
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "elevation": 12,
               "opacity": 1,
-              "shadowOffset": Object {
-                "height": 4,
-                "width": 0,
-              },
-              "shadowOpacity": 0.18,
-              "shadowRadius": 4,
               "width": "100%",
             }
           }
@@ -238,11 +231,14 @@ Array [
               Array [
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#91b086",
+                  "backgroundColor": "#333333",
                   "borderRadius": 2,
+                  "borderTopColor": "#272727",
+                  "borderTopWidth": 4,
                   "flexDirection": "row",
-                  "height": 50,
+                  "height": 45,
                   "justifyContent": "center",
+                  "paddingBottom": 2,
                 },
               ]
             }
@@ -306,6 +302,7 @@ Array [
           }
         />
         <View
+          accessibilityLabel="Iniciar sesión"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -317,14 +314,7 @@ Array [
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "elevation": 12,
               "opacity": 1,
-              "shadowOffset": Object {
-                "height": 4,
-                "width": 0,
-              },
-              "shadowOpacity": 0.18,
-              "shadowRadius": 4,
               "width": "100%",
             }
           }
@@ -336,9 +326,12 @@ Array [
                   "alignItems": "center",
                   "backgroundColor": "transparent",
                   "borderRadius": 2,
+                  "borderTopColor": "transparent",
+                  "borderTopWidth": 4,
                   "flexDirection": "row",
-                  "height": 50,
+                  "height": 45,
                   "justifyContent": "center",
+                  "paddingBottom": 2,
                 },
               ]
             }

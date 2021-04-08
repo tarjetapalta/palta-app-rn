@@ -15,6 +15,7 @@ import {
 
 const Wrapper = styled(WrapperButton)`
   background-color: transparent;
+  border-top-color: transparent;
 `;
 
 type ButtonLinkType = Pick<ViewProps, 'testID'>;

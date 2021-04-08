@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useContext } from 'react';
 import {
   ViewProps,
   TouchableOpacityProps,
@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 
 import { KeyColors } from '@theme/colors';
-import styled from '@theme/styled-components';
+import styled, { ThemeContext } from '@theme/styled-components';
 import {
   WrapperButton,
   TextButton,
@@ -51,19 +51,23 @@ export const ButtonRegular: FunctionComponent<ButtonRegularProps> = ({
   backgroundColor,
   /** Text color */
   color,
-}) => (
-  <TouchableOpacity
-    testID={testID}
-    onPress={onActionHandle}
-    accessibilityLabel={accessibilityLabel}
-    disabled={disabled || loading}
-  >
-    <Wrapper disabled={disabled} color={backgroundColor}>
-      {loading ? (
-        <ActivityIndicator />
-      ) : (
-        <TextButton color={color}>{text}</TextButton>
-      )}
-    </Wrapper>
-  </TouchableOpacity>
-);
+}) => {
+  const theme = useContext(ThemeContext);
+
+  return (
+    <TouchableOpacity
+      testID={testID}
+      onPress={onActionHandle}
+      accessibilityLabel={accessibilityLabel}
+      disabled={disabled || loading}
+    >
+      <Wrapper disabled={disabled} color={backgroundColor}>
+        {loading ? (
+          <ActivityIndicator color={theme.colors.white} />
+        ) : (
+          <TextButton color={color}>{text}</TextButton>
+        )}
+      </Wrapper>
+    </TouchableOpacity>
+  );
+};
