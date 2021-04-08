@@ -19,7 +19,8 @@ const ThemeProvider: FunctionComponent = ({
         fontSize,
         fontWeight,
       },
-    }}>
+    }}
+  >
     {children}
   </Provider>
 );

@@ -14,6 +14,12 @@ export const palette = {
   doverStraits: '#3366BB',
   amour: '#EE5350',
   redMull: '#FF8888',
+  peppermintFrosting: '#B2FAEA',
+  mintTulip: '#C5EDDB',
+  pearCactus: '#91b086',
+  fogGreen: '#c1cdb5',
+  stemGreen: '#AAE48E',
   applegate: '#8FC177',
   vitalize: '#28AC42',
+  colorMeGreen: '#7ec177',
 };

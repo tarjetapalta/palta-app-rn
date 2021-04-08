@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spacer component basic spacer component with size "m" height "24px" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 24,
+      },
+    ]
+  }
+/>
+`;

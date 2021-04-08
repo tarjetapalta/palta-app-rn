@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buttonRegular component basic button regular with custom testID" 1`] = `
+<View
+  accessibilityLabel="button test"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "elevation": 12,
+      "opacity": 1,
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 4,
+      "width": "100%",
+    }
+  }
+  testID="custom testID"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#91b086",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "BwModelica-Bold",
+            "fontSize": 14,
+            "letterSpacing": 0.21,
+            "opacity": 0.87,
+            "textAlign": "center",
+            "textTransform": "uppercase",
+          },
+        ]
+      }
+    >
+      Button test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`buttonRegular component basic button regular with disabled" 1`] = `
+<View
+  accessibilityLabel="button test"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "elevation": 12,
+      "opacity": 1,
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 4,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    disabled={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#91b086",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 0.38,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "BwModelica-Bold",
+            "fontSize": 14,
+            "letterSpacing": 0.21,
+            "opacity": 0.87,
+            "textAlign": "center",
+            "textTransform": "uppercase",
+          },
+        ]
+      }
+    >
+      Button test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`buttonRegular component basic button regular with loading" 1`] = `
+<View
+  accessibilityLabel="button test"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "elevation": 12,
+      "opacity": 1,
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 4,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#91b086",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="small"
+    />
+  </View>
+</View>
+`;
+
+exports[`buttonRegular component basic button regular with text, onActionHandle, accessibilityLabel and testID "ButtonRegular" 1`] = `
+<View
+  accessibilityLabel="button test"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "elevation": 12,
+      "opacity": 1,
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 4,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#91b086",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "BwModelica-Bold",
+            "fontSize": 14,
+            "letterSpacing": 0.21,
+            "opacity": 0.87,
+            "textAlign": "center",
+            "textTransform": "uppercase",
+          },
+        ]
+      }
+    >
+      Button test
+    </Text>
+  </View>
+</View>
+`;

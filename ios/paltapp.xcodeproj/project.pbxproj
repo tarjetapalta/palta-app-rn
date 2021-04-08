@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* paltappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* paltappTests.m */; };
+		103181B2CE5E430992168726 /* BwModelica-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DDABE9082754E88969E68F7 /* BwModelica-BlackItalic.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1DDF9F563D964297A6B5330F /* BwModelica-HairlineItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 050F8C89642E4ED48FB910EB /* BwModelica-HairlineItalic.otf */; };
+		225F1A47EFBB4959A67AE588 /* BwModelica-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08DC9233FE294D8482AEEBB7 /* BwModelica-ExtraBoldItalic.otf */; };
+		22D92BFD9A34493F9A17678A /* BwModelica-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 655651679E154277A3DBAD6B /* BwModelica-Thin.otf */; };
 		2C7B185893B67A1895D09EDB /* libPods-paltapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D04B6386042CCC253862DE /* libPods-paltapp.a */; };
+		37CED405E9C44986BBF479C9 /* BwModelica-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63F7E9F6A132447C9477D56C /* BwModelica-Hairline.otf */; };
+		3D4A3D5243E04C1B93E26492 /* BwModelica-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E246E6FAD9214E1193F4572A /* BwModelica-Light.otf */; };
+		4E5449F3C4534B4684B6C68B /* BwModelica-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 130A287C58D3486A9DD87214 /* BwModelica-Black.otf */; };
+		627B88A484E94D05929B5DD8 /* BwModelica-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3335C7402D9246438AA7BFE8 /* BwModelica-ThinItalic.otf */; };
+		6801C569632641E799E79C1C /* BwModelica-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78A7B8E96F024E8DA6B7BD39 /* BwModelica-LightItalic.otf */; };
+		6B82CF820DE048519538BF86 /* BwModelica-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C505D85F04D04015B75E110C /* BwModelica-BoldItalic.otf */; };
+		7A8AD50524A547918029046F /* BwModelica-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49AA336A1A0B4D0AB3C42211 /* BwModelica-Bold.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8EEBD26896EC49A78781D237 /* BwModelica-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F87F12307B12463C9B86E286 /* BwModelica-ExtraBold.otf */; };
+		90BBF4232A2B4A3980EACF7A /* BwModelica-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B01EB0DC935145C0B7CF2AAF /* BwModelica-MediumItalic.otf */; };
+		A92F8805C2874EFBB425E06E /* BwModelica-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB487790038D4FC182C08330 /* BwModelica-Medium.otf */; };
 		C18E86A95267095F10F91AE9 /* libPods-paltapp-paltappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B88C7B133C045EF2B6E713 /* libPods-paltapp-paltappTests.a */; };
+		CEA6302AECA94E87B45E4DFB /* BwModelica-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC8127549C9E4EDC94703F12 /* BwModelica-RegularItalic.otf */; };
+		F9A50CA4761346519CA65FB4 /* BwModelica-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBFC590E4B4AF89FA368A7 /* BwModelica-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +46,9 @@
 		00E356EE1AD99517003FC87E /* paltappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paltappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* paltappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paltappTests.m; sourceTree = "<group>"; };
+		050F8C89642E4ED48FB910EB /* BwModelica-HairlineItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-HairlineItalic.otf"; path = "../assets/fonts/BwModelica-HairlineItalic.otf"; sourceTree = "<group>"; };
+		08DC9233FE294D8482AEEBB7 /* BwModelica-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-ExtraBoldItalic.otf"; path = "../assets/fonts/BwModelica-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		130A287C58D3486A9DD87214 /* BwModelica-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Black.otf"; path = "../assets/fonts/BwModelica-Black.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* paltapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paltapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = paltapp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = paltapp/AppDelegate.m; sourceTree = "<group>"; };
@@ -38,12 +57,25 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = paltapp/main.m; sourceTree = "<group>"; };
 		27B88C7B133C045EF2B6E713 /* libPods-paltapp-paltappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paltapp-paltappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F270D0AEDBB9EAD5B81A000 /* Pods-paltapp-paltappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paltapp-paltappTests.debug.xcconfig"; path = "Target Support Files/Pods-paltapp-paltappTests/Pods-paltapp-paltappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3335C7402D9246438AA7BFE8 /* BwModelica-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-ThinItalic.otf"; path = "../assets/fonts/BwModelica-ThinItalic.otf"; sourceTree = "<group>"; };
 		36D04B6386042CCC253862DE /* libPods-paltapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paltapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AA336A1A0B4D0AB3C42211 /* BwModelica-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Bold.otf"; path = "../assets/fonts/BwModelica-Bold.otf"; sourceTree = "<group>"; };
 		4B744AB320B668D21AF5A899 /* Pods-paltapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paltapp.debug.xcconfig"; path = "Target Support Files/Pods-paltapp/Pods-paltapp.debug.xcconfig"; sourceTree = "<group>"; };
 		5C853ADE4D9B76F3D8DACC1B /* Pods-paltapp-paltappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paltapp-paltappTests.release.xcconfig"; path = "Target Support Files/Pods-paltapp-paltappTests/Pods-paltapp-paltappTests.release.xcconfig"; sourceTree = "<group>"; };
+		63F7E9F6A132447C9477D56C /* BwModelica-Hairline.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Hairline.otf"; path = "../assets/fonts/BwModelica-Hairline.otf"; sourceTree = "<group>"; };
+		655651679E154277A3DBAD6B /* BwModelica-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Thin.otf"; path = "../assets/fonts/BwModelica-Thin.otf"; sourceTree = "<group>"; };
+		6DDABE9082754E88969E68F7 /* BwModelica-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-BlackItalic.otf"; path = "../assets/fonts/BwModelica-BlackItalic.otf"; sourceTree = "<group>"; };
+		78A7B8E96F024E8DA6B7BD39 /* BwModelica-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-LightItalic.otf"; path = "../assets/fonts/BwModelica-LightItalic.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = paltapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FCBFC590E4B4AF89FA368A7 /* BwModelica-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Regular.otf"; path = "../assets/fonts/BwModelica-Regular.otf"; sourceTree = "<group>"; };
+		AC8127549C9E4EDC94703F12 /* BwModelica-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-RegularItalic.otf"; path = "../assets/fonts/BwModelica-RegularItalic.otf"; sourceTree = "<group>"; };
+		B01EB0DC935145C0B7CF2AAF /* BwModelica-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-MediumItalic.otf"; path = "../assets/fonts/BwModelica-MediumItalic.otf"; sourceTree = "<group>"; };
+		C505D85F04D04015B75E110C /* BwModelica-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-BoldItalic.otf"; path = "../assets/fonts/BwModelica-BoldItalic.otf"; sourceTree = "<group>"; };
+		E246E6FAD9214E1193F4572A /* BwModelica-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Light.otf"; path = "../assets/fonts/BwModelica-Light.otf"; sourceTree = "<group>"; };
 		EBA41811AB5B97B52911FB43 /* Pods-paltapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paltapp.release.xcconfig"; path = "Target Support Files/Pods-paltapp/Pods-paltapp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F87F12307B12463C9B86E286 /* BwModelica-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-ExtraBold.otf"; path = "../assets/fonts/BwModelica-ExtraBold.otf"; sourceTree = "<group>"; };
+		FB487790038D4FC182C08330 /* BwModelica-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BwModelica-Medium.otf"; path = "../assets/fonts/BwModelica-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +138,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		70459C7F953847CDB7D5C4B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				130A287C58D3486A9DD87214 /* BwModelica-Black.otf */,
+				6DDABE9082754E88969E68F7 /* BwModelica-BlackItalic.otf */,
+				49AA336A1A0B4D0AB3C42211 /* BwModelica-Bold.otf */,
+				C505D85F04D04015B75E110C /* BwModelica-BoldItalic.otf */,
+				F87F12307B12463C9B86E286 /* BwModelica-ExtraBold.otf */,
+				08DC9233FE294D8482AEEBB7 /* BwModelica-ExtraBoldItalic.otf */,
+				63F7E9F6A132447C9477D56C /* BwModelica-Hairline.otf */,
+				050F8C89642E4ED48FB910EB /* BwModelica-HairlineItalic.otf */,
+				E246E6FAD9214E1193F4572A /* BwModelica-Light.otf */,
+				78A7B8E96F024E8DA6B7BD39 /* BwModelica-LightItalic.otf */,
+				FB487790038D4FC182C08330 /* BwModelica-Medium.otf */,
+				B01EB0DC935145C0B7CF2AAF /* BwModelica-MediumItalic.otf */,
+				9FCBFC590E4B4AF89FA368A7 /* BwModelica-Regular.otf */,
+				AC8127549C9E4EDC94703F12 /* BwModelica-RegularItalic.otf */,
+				655651679E154277A3DBAD6B /* BwModelica-Thin.otf */,
+				3335C7402D9246438AA7BFE8 /* BwModelica-ThinItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +177,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BEB063B8E6C79E38D030DAF3 /* Pods */,
+				70459C7F953847CDB7D5C4B0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -145,7 +201,6 @@
 				2F270D0AEDBB9EAD5B81A000 /* Pods-paltapp-paltappTests.debug.xcconfig */,
 				5C853ADE4D9B76F3D8DACC1B /* Pods-paltapp-paltappTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +300,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4E5449F3C4534B4684B6C68B /* BwModelica-Black.otf in Resources */,
+				103181B2CE5E430992168726 /* BwModelica-BlackItalic.otf in Resources */,
+				7A8AD50524A547918029046F /* BwModelica-Bold.otf in Resources */,
+				6B82CF820DE048519538BF86 /* BwModelica-BoldItalic.otf in Resources */,
+				8EEBD26896EC49A78781D237 /* BwModelica-ExtraBold.otf in Resources */,
+				225F1A47EFBB4959A67AE588 /* BwModelica-ExtraBoldItalic.otf in Resources */,
+				37CED405E9C44986BBF479C9 /* BwModelica-Hairline.otf in Resources */,
+				1DDF9F563D964297A6B5330F /* BwModelica-HairlineItalic.otf in Resources */,
+				3D4A3D5243E04C1B93E26492 /* BwModelica-Light.otf in Resources */,
+				6801C569632641E799E79C1C /* BwModelica-LightItalic.otf in Resources */,
+				A92F8805C2874EFBB425E06E /* BwModelica-Medium.otf in Resources */,
+				90BBF4232A2B4A3980EACF7A /* BwModelica-MediumItalic.otf in Resources */,
+				F9A50CA4761346519CA65FB4 /* BwModelica-Regular.otf in Resources */,
+				CEA6302AECA94E87B45E4DFB /* BwModelica-RegularItalic.otf in Resources */,
+				22D92BFD9A34493F9A17678A /* BwModelica-Thin.otf in Resources */,
+				627B88A484E94D05929B5DD8 /* BwModelica-ThinItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
